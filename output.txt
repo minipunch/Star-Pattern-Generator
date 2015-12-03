@@ -1,0 +1,9 @@
+Enter a number of stars: 3
+
+   *
+  **
+ ***
+****
+ ***
+  **
+   *
