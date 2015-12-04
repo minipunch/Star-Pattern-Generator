@@ -8,16 +8,10 @@
 
 void hourglass(int maxStars)
 {
-	char stars[maxStars];
-
-	// Filling the "stars" char variable
+	// Print current row of stars
 	for(int x = 0; x < maxStars; x++)
 	{
-	stars[x] = '*';
-	}
-	// Printing out the top half
-	for(int y = 0; y < maxStars; y++) {
-		cout << stars[y];
+		cout << "*";
 	}
 
 	// Fix to make sure there is no space after the first half of stars
@@ -36,7 +30,7 @@ void hourglass(int maxStars)
 
 	// Prints second half upside down
 	for(int z = 0; z < maxStars; z++) {
-			cout << stars[z];
+			cout << "*";
 		}
 		cout << endl;
 }
